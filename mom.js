@@ -7,7 +7,7 @@ let rot = 5;
 
 function e(){
 mama.style.transform = "rotate("+ rot+ "deg)";
-rot+=90;
+rot+=5;
 setTimeout (e, 1);
 }
 
